@@ -135,10 +135,6 @@ Nesse caso, a liderança informada não está cadastrada. Realize primeiro o cad
 
 ## Envio em lote
 
-:::info[Disponibilidade da funcionalidade]
-O envio em lote está disponível, no momento, apenas para o ambiente de Homologação da WeCare.
-:::
-
 Para atualizar mais de um colaborador por vez, realize a requisição dessa forma:
 
 ```json
@@ -163,3 +159,56 @@ Não envie o parâmetro `key` na URL do endpoint. Use o endpoint abaixo:
 
 **PATCH/PUT**
 `api/v2/users`
+
+
+## Programar atualizações
+
+:::info[Disponibilidade da funcionalidade]
+A programação de atualizações está disponível, no momento, apenas para o ambiente de Homologação da WeCare.
+:::
+
+Caso deseja efetivar as alterações de um colaborador em um momento posterior, você pode definir a data de agendamento na própria requisição:
+
+```json
+{
+  "user": {
+    "name": "Diego Oliveira dos Santos",
+    "function": "Desenvolvedor Frontend PL",
+    "company_area_1": "Produto",
+    "company_area_2": "Desenvolvimento",
+    "company_area_3": "Frontend",
+    "cellphone": "61 98989 9898",
+    "schedule_date": "25/11/2025",
+    "external_reference": "REQ-001"
+  }
+}
+```
+
+### Atributos
+
+| Atributos          | Tipo   | Descrição                                                                  |
+| -------------------| ------ | -------------------------------------------------------------------------- |
+| schedule_date      | date   | Data de agendamento no formato DD/MM/YYYY                                  |
+| external_reference | string | Referência externa ao seu sistema                                          |
+
+### Funcionamento
+
+A WeCare realizará as alterações, por padrão, às 00:00 do dia de agendamento. Esse horário pode ser modificado para sua empresa, entre em contato com a equipe de TI por meio do email: [ti@sejawecare.com.br](mailto:ti@sejawecare.com.br)
+
+Caso a alteração falhe, enviaremos uma notificação por email aos responsáveis da empresa e também conseguimos configurar o envio de uma notificação para o seu sistema, no formato de webhook.
+
+### Cancelar o agendamento
+
+Caso deseje cancelar o agendamento realizado, consulte os agendamentos feitos usando o endpoint:
+
+**GET**
+`api/v2/scheduled_changes`
+
+Para cancelar um agendamento, utilize o endpoint:
+
+**DELETE**
+`api/v2/scheduled_changes/:uuid/cancel`
+
+| Atributos | Tipo   | Descrição                                                   |
+| --------- | ------ | ----------------------------------------------------------- |
+| uuid      | string | Identificador do agendamento de alteração                   |
