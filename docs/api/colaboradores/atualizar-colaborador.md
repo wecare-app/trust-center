@@ -160,7 +160,6 @@ Não envie o parâmetro `key` na URL do endpoint. Use o endpoint abaixo:
 **PATCH/PUT**
 `api/v2/users`
 
-
 ## Programar atualizações
 
 :::info[Disponibilidade da funcionalidade]
@@ -177,12 +176,36 @@ Caso deseja efetivar as alterações de um colaborador em um momento posterior, 
     "company_area_1": "Produto",
     "company_area_2": "Desenvolvimento",
     "company_area_3": "Frontend",
-    "cellphone": "61 98989 9898",
-    "schedule_date": "25/11/2025",
-    "external_reference": "REQ-001"
-  }
+    "cellphone": "61 98989 9898"
+  },
+  "schedule_date": "25/11/2025",
+  "external_reference": "REQ-001"
 }
 ```
+
+E também no caso de envio em lote:
+
+```json
+{
+  "schedule_date": "25/11/2025",
+  "external_reference": "REQ-001",
+  "users": [
+    {
+      "key": {
+        // parâmetros de user
+      },
+    },
+    {
+      "key": {
+        // parâmetros de user
+      }
+    },
+    ...
+  ]
+}
+```
+
+A atualização será agendada para cada colaborador.
 
 ### Atributos
 
@@ -195,7 +218,7 @@ Caso deseja efetivar as alterações de um colaborador em um momento posterior, 
 
 A WeCare realizará as alterações, por padrão, às 00:00 do dia de agendamento. Esse horário pode ser modificado para sua empresa, entre em contato com a equipe de TI por meio do email: [ti@sejawecare.com.br](mailto:ti@sejawecare.com.br)
 
-Caso a alteração falhe, enviaremos uma notificação por email aos responsáveis da empresa e também conseguimos configurar o envio de uma notificação para o seu sistema, no formato de webhook.
+Caso a alteração falhe, enviaremos uma notificação por email aos responsáveis da empresa e também é possível configurar o envio de uma notificação para o seu sistema, no formato de webhook.
 
 ### Cancelar o agendamento
 
