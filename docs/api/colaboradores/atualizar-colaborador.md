@@ -162,10 +162,6 @@ Não envie o parâmetro `key` na URL do endpoint. Use o endpoint abaixo:
 
 ## Programar atualizações
 
-:::info[Disponibilidade da funcionalidade]
-A programação de atualizações está disponível, no momento, apenas para o ambiente de Homologação da WeCare.
-:::
-
 Caso deseja efetivar as alterações de um colaborador em um momento posterior, você pode definir a data de agendamento na própria requisição:
 
 ```json
