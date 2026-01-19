@@ -61,10 +61,6 @@ Nesse caso, não existe colaborador para a chave informada.
 
 Utilize esse método para desligar colaboradores na plataforma de **forma programada**.
 
-:::info[Disponibilidade da funcionalidade]
-O agendamento do desligamento está disponível, no momento, apenas para o ambiente de Homologação da WeCare.
-:::
-
 ## Método
 
 **PATCH**
