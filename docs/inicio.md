@@ -1,61 +1,129 @@
 ---
-id: home
+id: inicio
 title: Início
-description: Documentação técnica da API, integrações e configurações de SSO da WeCare.
+description: Portal de Segurança, Privacidade e Confiabilidade da WeCare.
 slug: /
 sidebar_position: 1
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+# WeCare Trust Center
 
-# Início
+Bem-vindo ao portal de Segurança, Privacidade e Confiabilidade da WeCare.
 
-Seja bem-vindo ao WeCare Dev Center! 🚀
-
-A WeCare oferece uma API para gerenciamento de colaboradores, além de integrações com terceiros e suporte a Single Sign-On (SSO). Aqui você encontrará informações detalhadas sobre como utilizar nossos serviços de maneira eficiente e segura.
+A WeCare protege os dados de seus clientes por meio de práticas alinhadas às melhores referências de segurança da informação, privacidade e desenvolvimento seguro.
+Este portal reúne nossas políticas, controles, arquitetura e evidências operacionais utilizadas para garantir a proteção contínua da plataforma.
 
 ---
 
-## O que você encontrará aqui?
+## Sobre a WeCare
 
-<Tabs>
-  <TabItem value="api" label="⚙️ APIs">
-    Acesse a documentação da API para entender como autenticar, listar e gerenciar colaboradores.
+A WeCare é uma plataforma SaaS de gestão de pessoas com funcionalidades gamificadas voltadas para desempenho, cultura organizacional e reconhecimento corporativo.
 
-    <a href="/api" class="button button--primary">Acessar Documentação da API</a>
+Nossa arquitetura foi projetada para atender organizações de médio e grande porte, priorizando:
 
-  </TabItem>
+* segurança dos dados
+* alta disponibilidade
+* escalabilidade
+* conformidade com requisitos regulatórios
 
-  <TabItem value="integracoes" label="🔗 Integrações">
-    Saiba como configurar integrações, começando pelo Microsoft Teams, para sincronização de usuários e notificações.
-
-    <a href="/integracoes" class="button button--primary">Acessar Integrações</a>
-
-  </TabItem>
-  
-  <TabItem value="sso" label="🔑 Configurações de SSO">
-    Aprenda a configurar o Single Sign-On (SSO) para autenticação centralizada e segura dos usuários.
-    
-    Atualmente, possuímos integração com Google e Microsoft.
-    
-    <a href="/sso" class="button button--primary">Acessar Configurações de SSO</a>
-  </TabItem>
-
-  <TabItem value="email" label="📧 Liberação de Email">
-    Libere o IP de envio de emails da WeCare para evitar problemas de bloqueios de notificações.
-    
-    <a href="/email" class="button button--primary">Acessar Liberação de Email</a>
-  </TabItem>
-</Tabs>
+Clientes corporativos utilizam a plataforma para gestão segura de informações relacionadas a colaboradores e processos internos.
 
 ---
 
-## Como começar?
+## Nossos Princípios de Segurança
 
-- Se você deseja integrar sua empresa com a **API de Colaboradores**, veja nossa seção de [APIs](/api).
-- Para configurar uma integração com nossos bots de notificações, confira [Integrações](/integracoes).
-- Caso precise configurar o **SSO**, veja as instruções detalhadas em [Single Sign On (SSO)](/sso).
-- Caso esteja com problemas de recebimento de emails, veja as instruções em [Liberação de Email](/email).
+A segurança da informação na WeCare é baseada nos seguintes princípios:
 
-Caso tenha dúvidas ou precise de suporte, entre em contato com nossa equipe técnica por meio do e-mail: [ti@sejawecare.com.br](mailto:ti@sejawecare.com.br)
+* 🔒 **Confidencialidade** — acesso restrito baseado no princípio do menor privilégio
+* ✅ **Integridade** — controles para prevenir alterações indevidas de dados
+* ⚡ **Disponibilidade** — infraestrutura resiliente e monitorada continuamente
+* 👁️ **Transparência** — documentação acessível aos clientes e parceiros
+* 🔁 **Melhoria contínua** — revisões periódicas e gestão ativa de riscos
+
+---
+
+## Sistema de Gestão de Segurança da Informação (SGSI)
+
+A WeCare mantém um Sistema de Gestão de Segurança da Informação estruturado com base nas boas práticas da ISO 27001.
+
+O SGSI contempla:
+
+* políticas corporativas de segurança da informação
+* gestão de riscos tecnológicos
+* gestão de incidentes
+* continuidade de negócios
+* práticas de desenvolvimento seguro
+* treinamentos periódicos de conscientização
+
+Nosso programa é continuamente revisado para acompanhar a evolução das ameaças e necessidades dos clientes.
+
+---
+
+## Proteções da Plataforma
+
+A plataforma WeCare adota múltiplas camadas de proteção, incluindo:
+
+* criptografia em trânsito (TLS 1.2/1.3)
+* criptografia em repouso (AES-256)
+* proteção contra ataques DDoS e Web Application Firewall (WAF)
+* autenticação segura e suporte a SSO (SAML 2.0)
+* monitoramento contínuo com alertas automáticos
+* segregação de ambientes (desenvolvimento, homologação e produção)
+* backups diários com testes periódicos de restauração
+
+---
+
+## Privacidade e Proteção de Dados
+
+A WeCare atua em conformidade com a Lei Geral de Proteção de Dados (LGPD), garantindo:
+
+* tratamento mínimo necessário de dados pessoais
+* transparência aos titulares
+* retenção limitada conforme finalidade
+* exclusão segura ao término contratual
+* canal dedicado para solicitações relacionadas a dados pessoais
+
+Documentações detalhadas estão disponíveis na seção **Privacidade e LGPD**.
+
+---
+
+## Transparência Operacional
+
+Clientes autenticados podem acessar documentação e evidências relacionadas à segurança da plataforma, incluindo:
+
+* políticas corporativas vigentes
+* registros de operações de tratamento de dados (ROPA)
+* relatórios de varredura de vulnerabilidades
+* testes de restauração de backups
+* materiais de treinamento em segurança da informação
+
+O acesso é controlado conforme o nível de relacionamento e acordos de confidencialidade aplicáveis.
+
+---
+
+## Treinamento e Cultura de Segurança
+
+A WeCare mantém um programa contínuo de conscientização em segurança da informação, incluindo:
+
+* treinamentos anuais obrigatórios
+* boas práticas para uso seguro de dispositivos
+* orientações sobre proteção de dados
+* atualizações periódicas para colaboradores
+
+Acreditamos que segurança é responsabilidade compartilhada entre tecnologia, processos e pessoas.
+
+---
+
+## Contato de Segurança
+
+Para dúvidas relacionadas à segurança da informação, privacidade ou processos de due diligence:
+
+**Email:** [security@sejawecare.com.br](mailto:security@sejawecare.com.br)
+**Contato geral:** [contato@sejawecare.com.br](mailto:contato@sejawecare.com.br)
+
+Solicitações são analisadas pela equipe responsável por Segurança da Informação e Privacidade.
+
+---
+
+*Última atualização: Abril de 2026*
+*Sistema de Gestão de Segurança da Informação em evolução contínua.*

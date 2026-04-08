@@ -8,8 +8,8 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "WeCare Dev Center",
-  tagline: "WeCare Development Center & APIs",
+  title: "WeCare Trust Center",
+  tagline: "WeCare Trust Center",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -21,7 +21,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "wecare-app", // Usually your GitHub org/user name.
-  projectName: "wecare-api-docs", // Usually your repo name.
+  projectName: "wecare-trust-center", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -59,7 +59,7 @@ const config = {
     ({
       // Replace with your project's social card
       navbar: {
-        title: "WeCare Dev Center",
+        title: "WeCare Trust Center",
         items: [
           {
             href: "https://www.sejawecare.com.br",
