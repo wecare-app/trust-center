@@ -17,16 +17,11 @@ Este portal reúne nossas políticas, controles, arquitetura e evidências opera
 
 ## Sobre a WeCare
 
-A WeCare é uma plataforma SaaS de gestão de pessoas com funcionalidades gamificadas voltadas para desempenho, cultura organizacional e reconhecimento corporativo.
+A WeCare é uma plataforma SaaS de Sucesso do Colaborador, focada em desempenho, cultura e reconhecimento no dia a dia das organizações.
 
-Nossa arquitetura foi projetada para atender organizações de médio e grande porte, priorizando:
+Nossa solução combina módulos de gestão de desempenho, reconhecimento 360, PDI, conversas 1:1, gamificação e recompensas flexíveis.
 
-* segurança dos dados
-* alta disponibilidade
-* escalabilidade
-* conformidade com requisitos regulatórios
-
-Clientes corporativos utilizam a plataforma para gestão segura de informações relacionadas a colaboradores e processos internos.
+Atendemos empresas que buscam evoluir performance e engajamento com uma experiência intuitiva, escalável e segura.
 
 ---
 
@@ -34,11 +29,11 @@ Clientes corporativos utilizam a plataforma para gestão segura de informações
 
 A segurança da informação na WeCare é baseada nos seguintes princípios:
 
-* 🔒 **Confidencialidade** — acesso restrito baseado no princípio do menor privilégio
-* ✅ **Integridade** — controles para prevenir alterações indevidas de dados
-* ⚡ **Disponibilidade** — infraestrutura resiliente e monitorada continuamente
-* 👁️ **Transparência** — documentação acessível aos clientes e parceiros
-* 🔁 **Melhoria contínua** — revisões periódicas e gestão ativa de riscos
+* **Confidencialidade** — acesso restrito baseado no princípio do menor privilégio
+* **Integridade** — controles para prevenir alterações indevidas de dados
+* **Disponibilidade** — infraestrutura resiliente e monitorada continuamente
+* **Transparência** — documentação acessível aos clientes e parceiros
+* **Melhoria contínua** — revisões periódicas e gestão ativa de riscos
 
 ---
 
@@ -118,12 +113,13 @@ Acreditamos que segurança é responsabilidade compartilhada entre tecnologia, p
 
 Para dúvidas relacionadas à segurança da informação, privacidade ou processos de due diligence:
 
-**Email:** [security@sejawecare.com.br](mailto:security@sejawecare.com.br)
-**Contato geral:** [contato@sejawecare.com.br](mailto:contato@sejawecare.com.br)
+- **Email:** [si@sejawecare.com.br](mailto:si@sejawecare.com.br)
+- **Contato geral:** [contato@sejawecare.com.br](mailto:contato@sejawecare.com.br)
 
 Solicitações são analisadas pela equipe responsável por Segurança da Informação e Privacidade.
 
 ---
 
 *Última atualização: Abril de 2026*
+
 *Sistema de Gestão de Segurança da Informação em evolução contínua.*
