@@ -1,0 +1,10 @@
+{
+  "label": "Arquitetura e Infraestrutura",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "Arquitetura e Infraestrutura",
+    "description": "Visão geral da arquitetura, componentes e modelo operacional da WeCare.",
+    "slug": "/arquitetura-e-infraestrutura"
+  }
+}

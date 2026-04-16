@@ -1,0 +1,10 @@
+{
+  "label": "Segurança da Informação",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "title": "Segurança da Informação",
+    "description": "Políticas e documentos da área de Segurança da Informação da WeCare.",
+    "slug": "/seguranca-da-informacao"
+  }
+}
