@@ -9,7 +9,7 @@ sidebar_position: 7
 
 > Status: Vigente  
 > Versao: 1.2  
-> Ultima atualizacao: Março de 2025  
+> Ultima atualizacao: Março de 2026  
 > Responsavel: Seguranca da Informacao
 
 # Propósito {#propósito}
