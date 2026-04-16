@@ -15,5 +15,3 @@ sidebar_position: 2
 ## Download em PDF
 
 Baixe a versao assinada deste documento em PDF:
-
-[Download da politica em PDF](/pdfs/politica-de-seguranca-da-informacao.pdf)
